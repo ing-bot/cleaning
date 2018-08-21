@@ -10,7 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180821041740) do
+ActiveRecord::Schema.define(version: 20180821205026) do
+
+  create_table "invoices", force: :cascade do |t|
+    t.boolean "invoiced"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "routines", id: false, force: :cascade do |t|
     t.datetime "created_at", null: false

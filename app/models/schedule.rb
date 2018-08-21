@@ -1,6 +1,7 @@
 class Schedule < ApplicationRecord
 #  has_many :routines
   has_many :tasks
+  belongs_to :invoice
 #  attr_accessor :date, :day, :schedule_id, :time_in, :time_out, :current
 
 

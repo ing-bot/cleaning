@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
 
+  get 'invoices/generate'
+
+  get 'invoices/show'
+
   get '/cleaning/welcome'
   get '/cleaning/thanks'
   get '/schedules/new'
