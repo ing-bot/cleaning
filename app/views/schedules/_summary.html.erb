@@ -1,0 +1,8 @@
+
+
+<%= @current_task.action %> <%= @current_task.room %> <%= @current_task.surface %><% if @current_task.option? %> (<%= @current_task.option%>)<% end %>.
+
+
+<ol>
+  <%= render :partial => 'summary', :collection => @current_tasks %>
+</ol>

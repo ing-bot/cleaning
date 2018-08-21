@@ -1,0 +1,29 @@
+// Place all the styles related to the Cleaning controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome {
+  display: block;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
+// FYI don't love these proportions. Fix later.
+.welcome-button {
+  width: 5.2em;
+  border: none;
+  background-color: #FFF808;
+  padding: 2em 0;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5em;
+  margin: 2em auto 2em auto;
+  border-radius: 50%;
+  a {
+    font-family: Times;
+    color: #445902;
+    text-decoration-line: none;
+  }
+}

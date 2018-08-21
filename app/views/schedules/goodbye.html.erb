@@ -1,0 +1,23 @@
+<div class="summary">
+<ol class="summary">
+<% @schedule.tasks.each do |t| %>
+<li><%= t.action %> <%= t.room %> <%= t.surface %><% if t.option? %> (<%= t.option%>)<% end %>.</li>
+<% end %>
+</ol>
+</div>
+
+
+<h3>
+  <%= form_for(@schedule, url: schedules_goodbye_url) do |f| %>
+
+  <%= f.label :time_out, class: "schedule-form" %>
+  <%= f.time_field :time_out %>
+
+  <%= f.label :desc, class: "schedule-form" %>
+  <%= f.text_field :desc %>
+
+  <%= f.submit "End!", class: "clock-button, clock-stop" %>
+
+  <% end %>
+
+</h3>

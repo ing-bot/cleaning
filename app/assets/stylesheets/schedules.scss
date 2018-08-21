@@ -1,0 +1,75 @@
+// Place all the styles related to the schedules controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+label.schedule-form {
+  display: block;
+  width: 30%;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px auto;
+}
+
+input {
+  display: block;
+  width: 25%;
+  margin: 5px auto;
+  font-size: 1.5em;
+}
+
+input.clock-start {
+  width: 6em;
+  border: none;
+  background-color: #33E800;
+  color: white;
+  padding: 2.5em 0 2.5em 0;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  margin: 1em auto 1em auto;
+  border-radius: 50%;
+}
+
+input.clock-stop {
+  width: 6em;
+  border: none;
+  background-color: #FF1001;
+  color: white;
+  padding: 2.5em 0 2.5em 0;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  margin: 1em auto 1em auto;
+  border-radius: 50%;
+}
+
+ol.summary {
+  width: 50%;
+  display: block;
+  margin: 0 auto 20 auto;
+  list-style-type: decimal;
+  li {
+    margin: 3px 0;
+  }
+}
+
+ul.index {
+  padding: 0;
+  list-style-type: none;
+  font-size: 1em;
+}
+
+li.index {
+  margin: 6px 0px;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2em;
+
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+
+}

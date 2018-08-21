@@ -1,0 +1,56 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+label {
+  display: block;
+  width: 30%;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 5px auto;
+}
+
+select {
+  display: block;
+  width: 15%;
+  font-size: .5em;
+  margin: 10px auto;
+}
+
+label.task-option {
+  font-size: .75em;
+}
+
+input#task_option {
+  display: block;
+  width: 20%;
+  font-size: .5em;
+  margin: 5px auto 0 auto;
+}
+
+input.submit {
+  width: 2.2em;
+  border: none;
+  background-color: #4F0682;
+  color: white;
+//  padding: 2.5em 0 2.5em 0;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  margin: 1em auto 1em auto;
+  border-radius: 15%;
+
+}
+
+.quit a {
+  display: block;
+  width: 30%;
+  text-align: center;
+  font-size: .8em;
+  margin: 15px auto;
+  font-family: sans-serif;
+  text-decoration-line: none;
+}

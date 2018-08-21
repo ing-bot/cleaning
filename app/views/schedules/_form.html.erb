@@ -1,0 +1,14 @@
+<%= form_for(@schedule, url: schedules_new_path) do |f| %>
+
+<%= f.label :date, class: "schedule-form" %>
+<%= f.date_field :date %>
+
+<%= f.label :time_in, class: "schedule-form" %>
+<%= f.time_field :time_in %>
+
+<%= f.label :day, class: "schedule-form" %>
+<%= f.text_field :day %>
+
+<%= f.submit "Begin", class: "clock-button, clock-start" %>
+
+<% end %>

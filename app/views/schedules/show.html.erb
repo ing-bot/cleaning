@@ -1,0 +1,15 @@
+<h3>Schedule for <%= @schedule.day %>, <%= @schedule.date.to_s(:long) %>...</h3>
+<p>Start Time: <%= @schedule.time_in.strftime("%I:%M %p") %></p>
+<p>End Time: <%= @schedule.time_out.strftime("%I:%M %p") %></p>
+
+<div class="summary">
+<ol class="summary">
+<% @tasks.each do |t| %>
+<li><%= t.action %> <%= t.room %> <%= t.surface %><% if t.option? %> (<%= t.option%>)<% end %>.</li>
+<% end %>
+</ol>
+</div>
+
+<p>Hours Worked: <%= @schedule.hours_worked(@schedule) %>
+
+<p><%= link_to "Back", schedules_path %><p>

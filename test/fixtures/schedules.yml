@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+tues:
+  date: 2018-08-07
+  day: Tuesday
+  time_in: 2018-08-07 14:00:00
+  time_out: 2018-08-07 18:00:00
+
+fri:
+  date: 2018-08-10
+  day: Friday
+  time_in: 2018-08-04 12:00:00
+  time_out: 2018-08-04 18:00:00
